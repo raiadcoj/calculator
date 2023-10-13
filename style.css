@@ -1,0 +1,52 @@
+body{
+    margin:0;
+    padding:0;
+
+}
+
+button{
+    height: 75px;
+    width: 75px;
+    background-color:azure;
+    font-size:48px;
+}
+
+button:active{
+    background-color: rgb(141, 157, 157);
+}
+
+.shell{
+    padding:10px;
+    width:400px;
+    height:500px;
+    background-color:darkgrey;
+    align-items: center;
+    border:16px;
+    border-style:solid;
+    border-color:grey;
+    flex-direction:column;
+}
+
+#screen{
+    width:380px;
+    height:100px;
+    margin:10px;
+    background-color:lightgrey;
+    color:black;
+    font-size:72px;
+}
+
+.belowscreen{
+    display:flex;
+    margin: 30px;
+}
+.numbox{
+    width:250px;
+}
+
+.opbox{
+    display: flex;
+    width:auto;
+    flex-direction:column
+}
+

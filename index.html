@@ -6,12 +6,14 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <Title>Calculator</Title>
         <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
     </head>
     <body>
-        <script src="style.css"></script>
         <div class="shell">
-            <div class="screen"></div>
+            <div id="screen">Hi</div>
+            <div class="belowscreen">
             <div class="numbox">
+                <div class='numbers'>
                 <button class="numbutton">9</button>
                 <button class="numbutton">8</button>
                 <button class="numbutton">7</button>
@@ -21,19 +23,19 @@
                 <button class="numbutton">3</button>
                 <button class="numbutton">2</button>
                 <button class="numbutton">1</button>
+                <button class="numbutton">0</button>
+                <button class="otherbutton" id="equal">=</button>
+                <button class="otherbutton" id="dec">.</button>
+                </div>
+
             </div>
             <div class="opbox">
-                <button class="opbutton">÷</button>
-                <button class="opbutton">×</button>
-                <button class="opbutton">-</button>
-                <button class="opbutton">+</button>
+                <button class="opbutton" id="div">÷</button>
+                <button class="opbutton" id="times">×</button>
+                <button class="opbutton" id="minus">-</button>
+                <button class="opbutton" id="plus">+</button>
             </div>
-            <div class="otherbox">
-                <button class="otherbutton">=</button>
-                <button class="otherbutton">.</button>
             </div>
-
-        </div>
-
+            </div>
     </body>
 </html>
